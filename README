@@ -3,7 +3,7 @@ NAME
     Serialization for DBIx Class Columns
 
 VERSION
-    version 0.001000
+    version 0.001001
 
 SYNOPSIS
     Standard DBIx::Class definition:
