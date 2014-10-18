@@ -34,6 +34,10 @@ requires:
   perl: '5.006'
   strict: '0'
   warnings: '0'
+resources:
+  bugtracker: https://github.com/kentnl/DBIx-Class-InflateColumn-Serializer-Sereal/issues
+  homepage: https://github.com/kentnl/DBIx-Class-InflateColumn-Serializer-Sereal
+  repository: https://github.com/kentnl/DBIx-Class-InflateColumn-Serializer-Sereal.git
 version: '0.001000'
 x_BuiltWith:
   failures:

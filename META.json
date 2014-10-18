@@ -120,6 +120,17 @@
       }
    },
    "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/kentnl/DBIx-Class-InflateColumn-Serializer-Sereal/issues"
+      },
+      "homepage" : "https://github.com/kentnl/DBIx-Class-InflateColumn-Serializer-Sereal",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/kentnl/DBIx-Class-InflateColumn-Serializer-Sereal.git",
+         "web" : "https://github.com/kentnl/DBIx-Class-InflateColumn-Serializer-Sereal"
+      }
+   },
    "version" : "0.001000",
    "x_BuiltWith" : {
       "failures" : {
