@@ -4,14 +4,14 @@ use warnings;
 
 package DBIx::Class::InflateColumn::Serializer::Sereal;
 
-our $VERSION = '0.001000';
+our $VERSION = '0.001001';
 
 # ABSTRACT: Sereal based Serialization for DBIx Class Columns
 
 our $AUTHORITY = 'cpan:KENTNL'; # AUTHORITY
 
-use Sereal::Encoder qw( sereal_encode_with_object );
-use Sereal::Decoder qw( sereal_decode_with_object );
+use Sereal::Encoder 2.070000 qw( sereal_encode_with_object );
+use Sereal::Decoder 2.070000 qw( sereal_decode_with_object );
 use Carp qw( croak );
 
 sub get_freezer {
@@ -51,7 +51,7 @@ DBIx::Class::InflateColumn::Serializer::Sereal - Sereal based Serialization for 
 
 =head1 VERSION
 
-version 0.001000
+version 0.001001
 
 =head1 SYNOPSIS
 

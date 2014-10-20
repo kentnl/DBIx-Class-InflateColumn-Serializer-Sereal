@@ -26,11 +26,11 @@ name: DBIx-Class-InflateColumn-Serializer-Sereal
 provides:
   DBIx::Class::InflateColumn::Serializer::Sereal:
     file: lib/DBIx/Class/InflateColumn/Serializer/Sereal.pm
-    version: '0.001000'
+    version: '0.001001'
 requires:
   Carp: '0'
-  Sereal::Decoder: '0'
-  Sereal::Encoder: '0'
+  Sereal::Decoder: '2.070000'
+  Sereal::Encoder: '2.070000'
   perl: '5.006'
   strict: '0'
   warnings: '0'
@@ -38,7 +38,7 @@ resources:
   bugtracker: https://github.com/kentnl/DBIx-Class-InflateColumn-Serializer-Sereal/issues
   homepage: https://github.com/kentnl/DBIx-Class-InflateColumn-Serializer-Sereal
   repository: https://github.com/kentnl/DBIx-Class-InflateColumn-Serializer-Sereal.git
-version: '0.001000'
+version: '0.001001'
 x_BuiltWith:
   failures:
     DBIx::Class::Core: 'Module::MetaData could not parse a version from /home/kent/perl5/perlbrew/perls/blead/lib/site_perl/5.21.3/DBIx/Class/Core.pm'
@@ -50,7 +50,7 @@ x_BuiltWith:
     DBI: '1.631'
     DBIx::Class::InflateColumn::Serializer: '0.06'
     Dist::Zilla: '5.020'
-    Dist::Zilla::App::Command::bakeini: '0.001002'
+    Dist::Zilla::App::Command::bakeini: '0.001003'
     Dist::Zilla::Plugin::Author::KENTNL::RecommendFixes: '0.003006'
     Dist::Zilla::Plugin::Authority: '1.006'
     Dist::Zilla::Plugin::AutoPrereqs: '5.020'
@@ -99,15 +99,15 @@ x_BuiltWith:
     Dist::Zilla::PluginBundle::Author::KENTNL: '2.021000'
     ExtUtils::MakeMaker: '6.98'
     File::Spec: '3.49'
-    Path::Tiny: '0.058'
+    Path::Tiny: '0.059'
     Pod::Coverage::TrustPod: '0.100003'
-    Sereal::Decoder: '3.002'
-    Sereal::Encoder: '3.002'
+    Sereal::Decoder: '3.003'
+    Sereal::Encoder: '3.003'
     Test::CPAN::Changes: '0.30'
     Test::CPAN::Meta: '0.23'
     Test::Fatal: '0.013'
     Test::Kwalitee: '1.22'
-    Test::More: '1.001006'
+    Test::More: '1.001008'
     Test::Pod: '1.48'
     Test::Pod::Coverage: '1.10'
     parent: '0.228'
@@ -454,7 +454,7 @@ x_Dist_Zilla:
         Dist::Zilla::Plugin::Git::Tag:
           branch: ~
           signed: '0'
-          tag: 0.001000-source
+          tag: 0.001001-source
           tag_format: '%v-source'
           tag_message: v%v
           time_zone: local
@@ -508,7 +508,7 @@ x_Dist_Zilla:
         Dist::Zilla::Plugin::Git::Tag:
           branch: releases
           signed: '0'
-          tag: '0.001000'
+          tag: '0.001001'
           tag_format: '%v'
           tag_message: v%v
           time_zone: local

@@ -1,2 +1,13 @@
 This file contains ALL changes in dependencies in both REQUIRED / OPTIONAL dependencies for all phases (configure/build/runtime/test/develop)
 
+0.001001
+ [Changed / develop suggests]
+ - Dist::Zilla::App::Command::bakeini 0.001002 → 0.001003
+
+ [Changed / runtime requires]
+ - Sereal::Decoder 0 → 2.070000
+ - Sereal::Encoder 0 → 2.070000
+
+ [Changed / test recommends]
+ - Test::More 1.001006 → 1.001008
+

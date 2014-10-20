@@ -21,8 +21,8 @@ my %WriteMakefileArgs = (
   "NAME" => "DBIx::Class::InflateColumn::Serializer::Sereal",
   "PREREQ_PM" => {
     "Carp" => 0,
-    "Sereal::Decoder" => 0,
-    "Sereal::Encoder" => 0,
+    "Sereal::Decoder" => "2.070000",
+    "Sereal::Encoder" => "2.070000",
     "strict" => 0,
     "warnings" => 0
   },
@@ -39,7 +39,7 @@ my %WriteMakefileArgs = (
     "Test::More" => "0.89",
     "parent" => 0
   },
-  "VERSION" => "0.001000",
+  "VERSION" => "0.001001",
   "test" => {
     "TESTS" => "t/*.t t/00-compile/*.t"
   }
@@ -56,8 +56,8 @@ my %FallbackPrereqs = (
   "ExtUtils::MakeMaker" => 0,
   "File::Spec" => 0,
   "Path::Tiny" => 0,
-  "Sereal::Decoder" => 0,
-  "Sereal::Encoder" => 0,
+  "Sereal::Decoder" => "2.070000",
+  "Sereal::Encoder" => "2.070000",
   "Test::Fatal" => 0,
   "Test::More" => "0.89",
   "parent" => 0,

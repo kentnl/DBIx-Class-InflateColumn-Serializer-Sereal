@@ -1,2 +1,6 @@
 This file contains changes to DEVELOPMENT dependencies only ( both REQUIRED and OPTIONAL )
 
+0.001001
+ [Changed / develop suggests]
+ - Dist::Zilla::App::Command::bakeini 0.001002 → 0.001003
+
