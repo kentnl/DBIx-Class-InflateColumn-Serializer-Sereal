@@ -10,8 +10,8 @@ our $VERSION = '0.001001';
 
 our $AUTHORITY = 'cpan:KENTNL'; # AUTHORITY
 
-use Sereal::Encoder qw( sereal_encode_with_object );
-use Sereal::Decoder qw( sereal_decode_with_object );
+use Sereal::Encoder 2.070000 qw( sereal_encode_with_object );
+use Sereal::Decoder 2.070000 qw( sereal_decode_with_object );
 use Carp qw( croak );
 
 sub get_freezer {
