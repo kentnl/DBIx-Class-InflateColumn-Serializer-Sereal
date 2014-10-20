@@ -1,6 +1,14 @@
 Release history for DBIx-Class-InflateColumn-Serializer-Sereal
 
 {{$NEXT}}
+ [Bugfix]
+ - State a minimum version of Sereal components for _with_object function.
+
+ [Dependencies::Stats]
+ - Dependencies changed since 0.001000, see misc/*.deps* for details
+ - develop: (suggests: ↑1)
+ - runtime: ↑2
+ - test: (recommends: ↑1)
 
 0.001000 2014-10-18T21:52:31Z f738bbd
  - First version.
