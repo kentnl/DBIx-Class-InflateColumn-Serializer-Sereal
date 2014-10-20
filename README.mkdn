@@ -4,7 +4,7 @@ DBIx::Class::InflateColumn::Serializer::Sereal - Sereal based Serialization for 
 
 # VERSION
 
-version 0.001001
+version 0.001002
 
 # SYNOPSIS
 

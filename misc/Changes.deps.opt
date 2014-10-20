@@ -1,6 +1,8 @@
 This file contains changes in OPTIONAL dependencies for standard CPAN phases (configure/build/runtime/test)
 
-0.001001
+0.001002
+
+0.001001 2014-10-20T03:29:42Z
  [Changed / test recommends]
  - Test::More 1.001006 → 1.001008
 
