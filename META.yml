@@ -26,7 +26,7 @@ name: DBIx-Class-InflateColumn-Serializer-Sereal
 provides:
   DBIx::Class::InflateColumn::Serializer::Sereal:
     file: lib/DBIx/Class/InflateColumn/Serializer/Sereal.pm
-    version: '0.001001'
+    version: '0.001002'
 requires:
   Carp: '0'
   Sereal::Decoder: '2.070000'
@@ -38,7 +38,7 @@ resources:
   bugtracker: https://github.com/kentnl/DBIx-Class-InflateColumn-Serializer-Sereal/issues
   homepage: https://github.com/kentnl/DBIx-Class-InflateColumn-Serializer-Sereal
   repository: https://github.com/kentnl/DBIx-Class-InflateColumn-Serializer-Sereal.git
-version: '0.001001'
+version: '0.001002'
 x_BuiltWith:
   failures:
     DBIx::Class::Core: 'Module::MetaData could not parse a version from /home/kent/perl5/perlbrew/perls/blead/lib/site_perl/5.21.3/DBIx/Class/Core.pm'
@@ -454,7 +454,7 @@ x_Dist_Zilla:
         Dist::Zilla::Plugin::Git::Tag:
           branch: ~
           signed: '0'
-          tag: 0.001001-source
+          tag: 0.001002-source
           tag_format: '%v-source'
           tag_message: v%v
           time_zone: local
@@ -508,7 +508,7 @@ x_Dist_Zilla:
         Dist::Zilla::Plugin::Git::Tag:
           branch: releases
           signed: '0'
-          tag: '0.001001'
+          tag: '0.001002'
           tag_format: '%v'
           tag_message: v%v
           time_zone: local

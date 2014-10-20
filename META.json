@@ -116,7 +116,7 @@
    "provides" : {
       "DBIx::Class::InflateColumn::Serializer::Sereal" : {
          "file" : "lib/DBIx/Class/InflateColumn/Serializer/Sereal.pm",
-         "version" : "0.001001"
+         "version" : "0.001002"
       }
    },
    "release_status" : "stable",
@@ -131,7 +131,7 @@
          "web" : "https://github.com/kentnl/DBIx-Class-InflateColumn-Serializer-Sereal"
       }
    },
-   "version" : "0.001001",
+   "version" : "0.001002",
    "x_BuiltWith" : {
       "failures" : {
          "DBIx::Class::Core" : "Module::MetaData could not parse a version from /home/kent/perl5/perlbrew/perls/blead/lib/site_perl/5.21.3/DBIx/Class/Core.pm",
@@ -651,7 +651,7 @@
                "Dist::Zilla::Plugin::Git::Tag" : {
                   "branch" : null,
                   "signed" : 0,
-                  "tag" : "0.001001-source",
+                  "tag" : "0.001002-source",
                   "tag_format" : "%v-source",
                   "tag_message" : "v%v",
                   "time_zone" : "local"
@@ -722,7 +722,7 @@
                "Dist::Zilla::Plugin::Git::Tag" : {
                   "branch" : "releases",
                   "signed" : 0,
-                  "tag" : "0.001001",
+                  "tag" : "0.001002",
                   "tag_format" : "%v",
                   "tag_message" : "v%v",
                   "time_zone" : "local"
