@@ -1,5 +1,7 @@
 Release history for DBIx-Class-InflateColumn-Serializer-Sereal
 
+0.001003 2017-03-07T20:11:30Z 346f2a8
+
 0.001002 2017-03-07T20:08:03Z a020378
  - Bugfix: Avoid test failures with -Ddefault_inc_excludes_dot
 

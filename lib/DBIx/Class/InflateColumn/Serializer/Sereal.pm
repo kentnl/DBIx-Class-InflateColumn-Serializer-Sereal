@@ -4,7 +4,7 @@ use warnings;
 
 package DBIx::Class::InflateColumn::Serializer::Sereal;
 
-our $VERSION = '0.001002';
+our $VERSION = '0.001003';
 
 # ABSTRACT: Sereal based Serialization for DBIx Class Columns
 
@@ -51,7 +51,7 @@ DBIx::Class::InflateColumn::Serializer::Sereal - Sereal based Serialization for 
 
 =head1 VERSION
 
-version 0.001002
+version 0.001003
 
 =head1 SYNOPSIS
 

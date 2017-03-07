@@ -28,7 +28,7 @@ name: DBIx-Class-InflateColumn-Serializer-Sereal
 provides:
   DBIx::Class::InflateColumn::Serializer::Sereal:
     file: lib/DBIx/Class/InflateColumn/Serializer/Sereal.pm
-    version: '0.001002'
+    version: '0.001003'
 requires:
   Carp: '0'
   Sereal::Decoder: '2.070000'
@@ -40,4 +40,4 @@ resources:
   bugtracker: https://github.com/kentnl/DBIx-Class-InflateColumn-Serializer-Sereal/issues
   homepage: https://github.com/kentnl/DBIx-Class-InflateColumn-Serializer-Sereal
   repository: https://github.com/kentnl/DBIx-Class-InflateColumn-Serializer-Sereal.git
-version: '0.001002'
+version: '0.001003'
