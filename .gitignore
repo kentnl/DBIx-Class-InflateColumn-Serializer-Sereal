@@ -1,2 +1,3 @@
-.build
-DBIx-Class-InflateColumn-Serializer-Sereal-*
+/.build
+/DBIx-Class-InflateColumn-Serializer-Sereal-*
+/tmp/
